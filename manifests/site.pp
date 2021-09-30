@@ -13,6 +13,6 @@ node /^web/ {
   include role::app_server
 }
 
-ode /^db/ {
+node /^db/ {
   include role::db_server
 }
